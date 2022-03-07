@@ -13,11 +13,11 @@ function getFullName(usr){
 }
 
 function setFirstName(usr, str){
-  return usr.firstName = str;
+  usr.firstName = str;
 }
 
 function setAge(usr, num){
-  return usr.age = num;
+  usr.age = num;
 }
 
 function giveBirthday(usr){
